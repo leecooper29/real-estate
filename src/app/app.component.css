@@ -1,0 +1,22 @@
+
+h2 {
+      font-family: 'Courier New', Courier, monospace;
+}
+.nav-bar {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      background-color: black;
+      color: white;
+      padding: 1rem;
+      justify-content: space-evenly;
+      list-style: none;
+      font-size: 24px;
+}
+.context-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      height: 20vh;
+}
+/* .context-item {
+} */
