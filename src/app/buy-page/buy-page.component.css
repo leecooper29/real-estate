@@ -1,0 +1,49 @@
+.container-body{
+    justify-content: space-evenly;
+    margin: 10px;
+}
+h1 {
+    font-size: 18px;
+    padding-right: 2rem;
+    font-family: sans-serif;
+  }
+
+  .filtered-items {
+    padding-left: 1.5rem;
+  }
+
+  .container-body {
+    justify-content: space-evenly;
+  }
+
+  .card-header {
+    display: flex;
+  }
+
+  .card {
+    margin: 1rem;
+    border: 2px solid black;
+  }
+
+  .card-img-top {
+    padding-top: 1rem;
+  }
+
+  .card-body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  button {
+    margin-left: 1rem;
+    border-radius: 5px;
+  }
+
+  .btn {
+    background-color: red;
+  }
+
+  .saved {
+    background-color: red;
+    color: white;
+  }

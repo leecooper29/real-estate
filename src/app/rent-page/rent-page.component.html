@@ -1,0 +1,19 @@
+<div class="row container-body">
+    <div *ngFor="let card of cardCount" class="card" style="width: 18rem">
+      <img class="card-img-top" src="{{ this.jImg }}" alt="Card image cap" />
+      <div class="card-body">
+        <h1>title</h1>
+        <p class="card-text">
+          Price: 500,000$
+          <br />
+          4 Beds 2 Baths
+          <br />
+          4,000 Square Feet
+          <br />
+          Address: 420 Cherry Hill
+        </p>
+        <div (click)="switchImage()" class="btn btn-primary">switch img</div>
+      </div>
+    </div>
+  </div>
+  

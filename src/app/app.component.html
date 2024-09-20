@@ -1,0 +1,13 @@
+<nav>
+  <ul class="nav-bar">
+    <li (click)="navigatePage('buy-page')">Buy</li>
+    <li (click)="navigatePage('rent-page')">Rent</li> <!-- Home -->
+    <li (click)="navigatePage('sell-page')">Sell</li>
+    <li (click)="logButton()">Projects Linked</li>
+    <li (click)="logButton()">Contact</li>
+  </ul>
+</nav>
+<div>
+  <router-outlet></router-outlet>
+</div>
+
