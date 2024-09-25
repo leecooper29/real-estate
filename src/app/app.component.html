@@ -1,13 +1,40 @@
-<nav>
-  <ul class="nav-bar">
-    <li (click)="navigatePage('buy-page')">Buy</li>
-    <li (click)="navigatePage('rent-page')">Rent</li> <!-- Home -->
-    <li (click)="navigatePage('sell-page')">Sell</li>
-    <li (click)="logButton()">Projects Linked</li>
-    <li (click)="logButton()">Contact</li>
-  </ul>
-</nav>
+<header>
+  <nav>
+    <!-- each of the items in this navbar will have a dropdown that willl add more detail based on what is selected -->
+    <ul class="nav-bar">
+      <a>CooperEstate.com</a>
+      <li (click)="navigatePage('buy-page')">Buy</li>
+      <li (click)="navigatePage('sell-page')">Sell</li>
+      <li (click)="navigatePage('rent-page')">Rent</li>
+      <!-- Home -->
+      <li (click)="navigatePage('realtor-page')">Find Realtors*</li>
+      <li>My Home</li>
+      <li (click)="logButton()">Collaborators Linked</li>
+      <li (click)="logButton()">Contact</li>
+      <!-- once you are able to sign in to an account you will be prompted to the details about your profiles as well as your own home -->
+      <div class="sign-in">
+        <button class="sign" (click)="navigatePage('-log-in')">sign in</button>
+        <button (click)="navigatePage('-log-in')">sign up</button>
+        <div class="">
+          <!-- logged in profile image -->
+        </div>
+      </div>
+    </ul>
+  </nav>
+  <nav>
+    <ul class="secondary-nav">
+      <input type="search" name="" id="" placeholder="Home Address..." />
+      <!-- each of the list items will have a dropdown menu with detailed info and available filters base on the price, property type etc. -->
+      <li>Price</li>
+      <li>Property Type</li>
+      <li>Rooms</li>
+      <li>Listing Status</li>
+    </ul>
+  </nav>
+</header>
+<section>
+  <div class=""></div>
+</section>
 <div>
   <router-outlet></router-outlet>
 </div>
-

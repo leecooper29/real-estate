@@ -1,49 +1,43 @@
 h1 {
-    text-align: center;
-    font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  font-size: 18px;
+  font-family: 'Courier New', Courier, monospace;
 }
 
-h1 {
-    font-size: 18px;
-    padding-right: 2rem;
-  }
+.filtered-items {
+  padding-left: 1.5rem;
+}
 
-  .filtered-items {
-    padding-left: 1.5rem;
-  }
+.container-body {
+  justify-content: space-evenly;
+}
 
-  .container-body {
-    justify-content: space-evenly;
-  }
+.card-header {
+  display: flex;
+}
 
-  .card-header {
-    display: flex;
-  }
+.card {
+  margin: 1rem;
+}
 
-  .card {
-    margin: 1rem;
-    border: 2px solid black;
-  }
 
-  .card-img-top {
-    padding-top: 1rem;
-  }
+.card-body > p {
+  font-size: 14px;
+}
 
-  .card-body {
-    display: flex;
-    flex-direction: column;
-  }
 
-  button {
-    margin-left: 1rem;
-    border-radius: 5px;
-  }
+.card-img-top {
+  padding-top: 1rem;
+}
 
-  .btn {
-    background-color: red;
-  }
+.card-body {
+  display: flex;
+  flex-direction: column;
+}
 
-  .saved {
-    background-color: red;
-    color: white;
-  }
+.btn {
+  border-radius: 5px;
+  background-color: blue;
+}
+
+
