@@ -1,22 +1,69 @@
-
+h1 {
+      font-size: 20px;
+      font-family: sans-serif;
+      text-align: center;
+}
 h2 {
-      font-family: 'Courier New', Courier, monospace;
+      align-items: center;
+      font-family: sans-serif;
 }
 .nav-bar {
       display: flex;
       flex-direction: row;
       align-items: center;
-      background-color: black;
-      color: white;
+      /* position: fixed; */
+      border-bottom: 1px solid black;
+      color: black;
       padding: 1rem;
       justify-content: space-evenly;
       list-style: none;
-      font-size: 24px;
+      font-size: 20px;
+}
+.nav-bar > li {
+      text-decoration: underline;
+}
+.secondary-nav {
+      display: flex;
+      list-style: none;
+      padding-left: 5rem;
+      align-items: center;
+      background-color: gray;
+      color: white;
+      padding: 0.5rem;
+      padding-left: 4em;
+}
+.sign-in >button {
+      margin-left: 0.5rem;
+      font-size: 18px;
+      font-family: sans-serif;
+}
+.secondary-nav > li {
+      padding-left: 1rem;
+}
+.secondary-nav > li:hover {
+      text-decoration: underline;
+}
+/* .secondary-nav > li:hover {
+      border-bottom: 1px solid grey;
+} */
+input {
+      padding-left: 0.5rem;
+      border-radius: 10px;
 }
 .context-grid {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr 1fr;
-      height: 20vh;
 }
 /* .context-item {
 } */
+
+.sign {
+      border: none;
+      color: black;
+      background-color: white;
+}
+ button {
+    border-radius: 4px;  
+    background-color: grey;
+    color: white;
+ }
