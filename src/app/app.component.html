@@ -1,4 +1,5 @@
 <header>
+<div>
   <nav>
     <!-- each of the items in this navbar will have a dropdown that willl add more detail based on what is selected -->
     <ul class="nav-bar">
@@ -13,14 +14,15 @@
       <li (click)="logButton()">Contact</li>
       <!-- once you are able to sign in to an account you will be prompted to the details about your profiles as well as your own home -->
       <div class="sign-in">
-        <button class="sign" (click)="navigatePage('-log-in')">sign in</button>
-        <button (click)="navigatePage('-log-in')">sign up</button>
+        <button class="sign" (click)="navigatePage('sign-in-page')">sign in</button>
+        <button (click)="navigatePage('sign-up-page')">sign up</button>
         <div class="">
           <!-- logged in profile image -->
         </div>
       </div>
     </ul>
   </nav>
+</div>
   <nav>
     <ul class="secondary-nav">
       <input type="search" name="" id="" placeholder="Home Address..." />

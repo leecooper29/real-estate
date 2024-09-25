@@ -38,3 +38,13 @@ button {
       background-color: blue;
       color: white;
 }
+.log-in-btn {
+      display: flex;
+      margin: 10px;
+      justify-content: space-evenly;
+      width: fit-content;
+
+}
+.log-in-button-box {
+      float: right;
+}

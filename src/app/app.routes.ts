@@ -3,7 +3,8 @@ import { SellPageComponent } from './sell-page/sell-page.component';
 import { NgModule } from '@angular/core';
 import { RentPageComponent } from './rent-page/rent-page.component';
 import { BuyPageComponent } from './buy-page/buy-page.component';
-import { LogPageComponent } from './log-page/log-page.component';
+import { SignUpPageComponent } from './sign-up-page/log-page.component';
+import { SignInPageComponent } from './sign-in-page/sign-in-page.component';
 
 
 export const routes: Routes = [
@@ -23,8 +24,13 @@ export const routes: Routes = [
         pathMatch: 'full'
     },
     {
-        path: 'log-page',
-        component: LogPageComponent,
+        path:'sign-in-page',
+        component: SignInPageComponent,
+        pathMatch: 'full'
+    },
+    {
+        path: 'sign-up-page',
+        component: SignUpPageComponent,
         pathMatch: 'full'
     },
     {

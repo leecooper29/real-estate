@@ -9,7 +9,8 @@ import { AppRoutingModule } from './app.routes';
 import { RentPageComponent } from './rent-page/rent-page.component';
 import { BuyPageComponent } from './buy-page/buy-page.component';
 import { HttpClientModule } from '@angular/common/http';
-import { LogPageComponent } from './log-page/log-page.component';
+import { SignUpPageComponent } from './sign-up-page/log-page.component';
+import { SignInPageComponent } from './sign-in-page/sign-in-page.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { LogPageComponent } from './log-page/log-page.component';
     SellPageComponent,
     RentPageComponent,
     BuyPageComponent,
-    LogPageComponent
+    SignUpPageComponent,
+    SignInPageComponent
   ],
   imports: [
     HttpClientModule,
